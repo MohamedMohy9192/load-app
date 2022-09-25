@@ -49,7 +49,7 @@ class LoadingButton @JvmOverloads constructor(
             ButtonState.Loading -> {
                 buttonText = resources.getString(R.string.button_loading)
                 valueAnimator = ValueAnimator.ofFloat(0f, widthSize.toFloat())
-                valueAnimator.duration = 3000
+                valueAnimator.duration = 2000
                 valueAnimator.addUpdateListener { value ->
                     progress = value.animatedValue as Float
                     invalidate()
