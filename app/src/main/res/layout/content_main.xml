@@ -62,8 +62,12 @@
         android:layout_width="0dp"
         android:layout_height="60dp"
         android:layout_margin="@dimen/default_margin"
+        app:buttonBackgroundColor="?attr/colorPrimary"
+        app:circleColor="?attr/colorAccent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:progressBackgroundColor="?attr/colorPrimaryDark"
+        app:textButtonColor="@color/white" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
